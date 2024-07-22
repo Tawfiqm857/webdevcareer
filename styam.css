@@ -28,8 +28,9 @@ body {
 .top-header{
 display:flex;
   flex-direction:row;
-  justify-contents:space-arround;
-flex:1;}
+  justify-content:center;
+  align-content:space-around;
+}
 
 .header {
   padding: 100px;
