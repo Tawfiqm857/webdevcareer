@@ -25,6 +25,14 @@ body {
 }
 
 /* Header/logo Title */
+.top-header{
+display:flex;
+  flex-direction:row;
+  justify-contents:space-arround;
+
+
+}
+
 .header {
   padding: 100px;
   text-align: center;
