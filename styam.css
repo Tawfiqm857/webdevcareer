@@ -29,9 +29,7 @@ body {
 display:flex;
   flex-direction:row;
   justify-contents:space-arround;
-
-
-}
+flex:1;}
 
 .header {
   padding: 100px;
