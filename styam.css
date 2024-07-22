@@ -30,9 +30,13 @@ display:flex;
   flex-direction:row;
   justify-content:center;
   align-content:space-around;
+    background-color: var(--color3);
+  color:var(--color1)
+
 }
 
 .header {
+  margin-top:15px;
   padding: 100px;
   text-align: center;
   background: var(--color1);
