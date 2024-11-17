@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to Web Development</title>
+ <style>
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.header {
+  background: #0056b3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header p {
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.introduction, .concepts {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #0056b3;
+  margin-bottom: 10px;
+}
+
+.concept {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.concept-content {
+  display: flex;
+  align-items: center;
+}
+
+.concept-img {
+  max-width: 150px;
+  margin-right: 15px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #0056b3;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+  <header class="header">
+    <h1>Introduction to Web Development</h1>
+    <p>By [Your Name]</p>
+  </header>
+  <main>
+    <section class="introduction">
+      <h2>Introduction</h2>
+      <p>Web development is an exciting and rapidly evolving field that powers the digital experiences we interact with daily. From websites and online applications to complex web-based services, web development plays a crucial role in shaping the online world. Understanding the key concepts of web development is essential whether you're an aspiring developer or a business owner looking to establish a digital presence.</p>
+    </section>
+
+    <section class="concepts">
+      <h2>Key Concepts in Web Development</h2>
+      
+      <article class="concept">
+        <h3>HTML (HyperText Markup Language)</h3>
+        <div class="concept-content">
+          <img src="path/to/your/image.jpg" alt="HTML Illustration" class="concept-img">
+          <p>HTML is the backbone of web pages. It provides the structure and content of a website, such as headings, paragraphs, images, and links. Think of HTML as the framework that organizes your web content.</p>
+        </div>
+      </article>
+      
+      <article class="concept">
+        <h3>CSS (Cascading Style Sheets)</h3>
+        <div class="concept-content">
+          <img src="path/to/your/image.jpg" alt="CSS Illustration" class="concept-img">
+          <p>CSS is what makes your website look visually appealing. It controls the layout, colors, fonts, and overall design of a web page. By separating style from structure, CSS allows developers to make changes efficiently.</p>
+        </div>
+      </article>
+
+      <!-- Repeat for other concepts (JavaScript, Frontend Development, etc.) -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
